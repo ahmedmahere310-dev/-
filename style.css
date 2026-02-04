@@ -1,0 +1,76 @@
+/* تنسيقات عامة للجسم */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* لون خلفية مريح للعين */
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* تنسيق العناوين */
+h1, h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #e67e22; /* خط برتقالي تحت العناوين */
+    padding-bottom: 10px;
+}
+
+/* تنسيق الصور والفيديو */
+img, video {
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px; /* حواف دائرية */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse; /* دمج الحدود */
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #e67e22;
+    color: white;
+}
+
+/* تنسيق النموذج (Form) */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"], select {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #219150; /* تغميق اللون عند مرور الماوس */
+}
+
+/* تمييز الكلمات المهمة */
+b, strong {
+    color: #e67e22;
+}
