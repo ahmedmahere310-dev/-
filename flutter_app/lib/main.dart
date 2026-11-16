@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                     runSpacing: 16,
                     children: [
                       _statCard('Total Users', '12.4K', Colors.blue),
-                      _statCard('Revenue', '$84.2K', Colors.green),
+                      _statCard('Revenue', '\$84.2K', Colors.green),
                       _statCard('Orders', '1,248', Colors.orange),
                       _statCard('Performance', '94%', Colors.purple),
                     ],
